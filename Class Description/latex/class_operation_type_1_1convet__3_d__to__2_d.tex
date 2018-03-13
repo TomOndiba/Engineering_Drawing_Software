@@ -1,0 +1,102 @@
+\section{Operation\+Type\+:\+:convet\+\_\+3\+D\+\_\+to\+\_\+2D Class Reference}
+\label{class_operation_type_1_1convet__3_d__to__2_d}\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ convet\+\_\+3\+D\+\_\+to\+\_\+2D} ()
+\item 
+void \textbf{ get\+\_\+projected\+\_\+points} (\textbf{ Plane} p, \textbf{ input\+\_\+3D} i)
+\item 
+void \textbf{ get\+\_\+labelled\+\_\+points} (\textbf{ Point} projected[999999999], \textbf{ Point} labelled[999999999])
+\item 
+void \textbf{ get\+\_\+frequency\+\_\+of\+\_\+points} (\textbf{ Point} projected[999999999], \textbf{ Point} labelled[999999999])
+\item 
+void \textbf{ get\+\_\+edges} (\textbf{ Point} projected[999999999], \textbf{ Point} labelled[999999999])
+\item 
+void \textbf{ project\+\_\+image} (\textbf{ Point} labelled[999999999], \textbf{ Edge} \textbf{ edges}[1000000], int frequency[999999999])
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Point} \textbf{ projected\+\_\+points} [999999999]
+\item 
+\textbf{ Point} \textbf{ lablled\+\_\+points} [999999999]
+\item 
+int \textbf{ frequncy\+\_\+points} [999999999]
+\item 
+\textbf{ Edge} \textbf{ edges} [1000000]
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_a5d81ca25fd2ecb25bc2a16c60b490979}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!convet\+\_\+3\+D\+\_\+to\+\_\+2D@{convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\index{convet\+\_\+3\+D\+\_\+to\+\_\+2D@{convet\+\_\+3\+D\+\_\+to\+\_\+2D}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{convet\+\_\+3\+D\+\_\+to\+\_\+2\+D()}
+{\footnotesize\ttfamily Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+C\+O\+N\+S\+T\+R\+U\+C\+T\+OR OF T\+HE C\+L\+A\+SS 
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_aac516b207c5ea000db6fb668e74d6efb}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!get\+\_\+edges@{get\+\_\+edges}}
+\index{get\+\_\+edges@{get\+\_\+edges}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{get\+\_\+edges()}
+{\footnotesize\ttfamily void Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::get\+\_\+edges (\begin{DoxyParamCaption}\item[{\textbf{ Point}}]{projected[999999999],  }\item[{\textbf{ Point}}]{labelled[999999999] }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+To get the set of projected edges on the plane of the 3D figure \mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_a147551d3fc9bc03de11601d64999cccf}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!get\+\_\+frequency\+\_\+of\+\_\+points@{get\+\_\+frequency\+\_\+of\+\_\+points}}
+\index{get\+\_\+frequency\+\_\+of\+\_\+points@{get\+\_\+frequency\+\_\+of\+\_\+points}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{get\+\_\+frequency\+\_\+of\+\_\+points()}
+{\footnotesize\ttfamily void Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::get\+\_\+frequency\+\_\+of\+\_\+points (\begin{DoxyParamCaption}\item[{\textbf{ Point}}]{projected[999999999],  }\item[{\textbf{ Point}}]{labelled[999999999] }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+To get the frequency of labelled points on the plane of the 3D figure \mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_ae4d5bf4dc080fd0ca29d6db5c940d677}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!get\+\_\+labelled\+\_\+points@{get\+\_\+labelled\+\_\+points}}
+\index{get\+\_\+labelled\+\_\+points@{get\+\_\+labelled\+\_\+points}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{get\+\_\+labelled\+\_\+points()}
+{\footnotesize\ttfamily void Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::get\+\_\+labelled\+\_\+points (\begin{DoxyParamCaption}\item[{\textbf{ Point}}]{projected[999999999],  }\item[{\textbf{ Point}}]{labelled[999999999] }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+To get the set of labelled points on the plane of the 3D figure \mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_a5e449db896f3e1d3aaf9a3a346f885ba}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!get\+\_\+projected\+\_\+points@{get\+\_\+projected\+\_\+points}}
+\index{get\+\_\+projected\+\_\+points@{get\+\_\+projected\+\_\+points}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{get\+\_\+projected\+\_\+points()}
+{\footnotesize\ttfamily void Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::get\+\_\+projected\+\_\+points (\begin{DoxyParamCaption}\item[{\textbf{ Plane}}]{p,  }\item[{\textbf{ input\+\_\+3D}}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+To get the set of projected points on the plane of the 3D figure \mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_a2a2d1a4073c517c3c45ffcfd188ad68b}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!project\+\_\+image@{project\+\_\+image}}
+\index{project\+\_\+image@{project\+\_\+image}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{project\+\_\+image()}
+{\footnotesize\ttfamily void Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::project\+\_\+image (\begin{DoxyParamCaption}\item[{\textbf{ Point}}]{labelled[999999999],  }\item[{\textbf{ Edge}}]{edges[1000000],  }\item[{int}]{frequency[999999999] }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+To display the projection on the Graphical Interface 
+
+\subsection{Member Data Documentation}
+\mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_a22bb17327a589e26bf9380523426ac54}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!edges@{edges}}
+\index{edges@{edges}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{edges}
+{\footnotesize\ttfamily \textbf{ Edge} Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::edges[1000000]\hspace{0.3cm}{\ttfamily [private]}}
+
+Edges present in the projected 2D image \mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_a2ad367ef71adaa16c5ab7eee61845043}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!frequncy\+\_\+points@{frequncy\+\_\+points}}
+\index{frequncy\+\_\+points@{frequncy\+\_\+points}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{frequncy\+\_\+points}
+{\footnotesize\ttfamily int Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::frequncy\+\_\+points[999999999]\hspace{0.3cm}{\ttfamily [private]}}
+
+Frequecy of the points that get lablled \mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_a403633fb764047822340904ab7d15098}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!lablled\+\_\+points@{lablled\+\_\+points}}
+\index{lablled\+\_\+points@{lablled\+\_\+points}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{lablled\+\_\+points}
+{\footnotesize\ttfamily \textbf{ Point} Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::lablled\+\_\+points[999999999]\hspace{0.3cm}{\ttfamily [private]}}
+
+Array of set of projection of points that get labelled acoording to the division of the plane \mbox{\label{class_operation_type_1_1convet__3_d__to__2_d_aee03aa6559f9d09b36456413b16121e1}} 
+\index{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}!projected\+\_\+points@{projected\+\_\+points}}
+\index{projected\+\_\+points@{projected\+\_\+points}!Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D@{Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2D}}
+\subsubsection{projected\+\_\+points}
+{\footnotesize\ttfamily \textbf{ Point} Operation\+Type\+::convet\+\_\+3\+D\+\_\+to\+\_\+2\+D\+::projected\+\_\+points[999999999]\hspace{0.3cm}{\ttfamily [private]}}
+
+Array of set of projection of points on the plane given 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/rahulbansal/\+Desktop/4th Sem/\+C\+O\+P290/\+Code/main.\+cpp\end{DoxyCompactItemize}
